@@ -1,0 +1,28 @@
+@-webkit-keyframes my {
+	 0% { color: #ff3300; } 
+	 50% { color: #fff;  } 
+	 100% { color: #ff3300;  } 
+ }
+ @-moz-keyframes my { 
+	 0% { color: #ff3300;  } 
+	 50% { color: #fff;  }
+	 100% { color: #ff3300;  } 
+ }
+ @-o-keyframes my { 
+	 0% { color: #ff471a; } 
+	 50% { color: #fff; } 
+	 100% { color: #ff471a;  } 
+ }
+ @keyframes my { 
+	 0% { color: #ff3300;  } 
+	 50% { color: #fff;  }
+	 100% { color: #ff3300;  } 
+ } 
+ .box-title {
+         background:#5c8a8a;
+         font-size:15px;
+	 -webkit-animation: my 800ms infinite;
+	 -moz-animation: my 800ms infinite; 
+	 -o-animation: my 800ms infinite; 
+	 animation: my 900ms infinite;
+}
